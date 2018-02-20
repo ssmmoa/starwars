@@ -2,7 +2,7 @@ package be.steformations.starwars.hero; // tout fichier java commence toujours p
 
 import java.util.Scanner; // package contenant scanner
 
-public abstract class Soldat extends Rebelle{
+public class Soldat extends Rebelle{
 
 	public Soldat (String aNom)
 	{

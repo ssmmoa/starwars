@@ -9,7 +9,7 @@ public abstract class Rebelle extends Personnage{
 		super(aNom); // passe au constructeur ancetre la string aNom 
 	}
 
-	public void afficheChamp()
+	public void afficheCamp()
 	{	
 		System.out.println("Rebelle");	
 	}

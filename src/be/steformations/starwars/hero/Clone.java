@@ -2,7 +2,7 @@ package be.steformations.starwars.hero; // tout fichier java commence toujours p
 
 import java.util.Scanner; // package contenant scanner
 
-public abstract class Clone extends Empire{
+public class Clone extends Empire{
 
 	private static String aNom = "julien";	// la valeur aNom doit être static
 

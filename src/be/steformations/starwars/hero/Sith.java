@@ -2,7 +2,8 @@ package be.steformations.starwars.hero; // tout fichier java commence toujours p
 
 import java.util.Scanner; // package contenant scanner
 
-public abstract class Sith extends Empire{
+public class Sith extends Empire implements Force{
+	// implements permet de faire appel a l'interface
 
 	public Sith (String aNom)
 	{
@@ -12,6 +13,13 @@ public abstract class Sith extends Empire{
 	public void combattre()
 	{	
 		System.out.println("Ziou Ziou je vais te massacrer a la sith");	
+	}
+
+	@Override	// override de la methode abstraite de l'interface force 
+	public void utiliserForce(){
+	
+		System.out.println("le coté obscur m'acompagne !!");
+	
 	}
 
 }
