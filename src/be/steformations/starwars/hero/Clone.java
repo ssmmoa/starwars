@@ -4,9 +4,14 @@ import java.util.Scanner; // package contenant scanner
 
 public abstract class Clone extends Empire{
 
-	public Clone (String aNom)
+	private static String aNom = "julien";	// la valeur aNom doit être static
+
+	public Clone ()
 	{
-		super(aNom);	// passe au constructeur ancetre la string aNom 
+		super(aNom);	// peut passer aNom car elle est static, ne peut pas
+						// etre une variable d'instance car super est construit avant 							// car agit comme une variable static
+
+		// super("julien"); fonctionne aussi :) 
 	}
 
 	public void combattre()
