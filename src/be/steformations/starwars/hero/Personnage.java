@@ -6,11 +6,14 @@ public abstract class Personnage{
 
 	private String nom;
 
-	public Personnage(String aNom){
+	public Personnage(String aNom){	// constructeur
 
-		this.nom = aNom; // copie de la valeur reçue en paramètre dans l'objet (variable d'instance nom)
+		this.nom = aNom; 
+		// copie de la valeur reçue en paramètre 
+		// dans l'objet (variable d'instance nom)
 
 	}//fin constructeur
+
 	public String getnom(){
 
 		return this.nom;
